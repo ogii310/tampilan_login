@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Login Form</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="login-container">
+
+        <div class="login-box">
+
+            <div class="icon">
+                🔐
+            </div>
+
+            <h1>Welcome Back!</h1>
+            <p class="subtitle">Login untuk melanjutkan ke akunmu</p>
+
+            <form id="loginForm">
+
+                <div class="input-group">
+                    <label for="email">Email</label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="Masukkan email"
+                        required
+                    >
+                </div>
+
+                <div class="input-group">
+                    <label for="password">Password</label>
+
+                    <input
+                        type="password"
+                        id="password"
+                        placeholder="Masukkan password"
+                        required
+                    >
+                </div>
+
+                <div class="options">
+
+                    <label class="remember">
+                        <input type="checkbox">
+                        <span>Ingat saya</span>
+                    </label>
+
+                    <a href="#">Lupa password?</a>
+
+                </div>
+
+                <button type="submit">Login</button>
+
+            </form>
+
+            <p class="register">
+                Belum punya akun?
+                <a href="register.html">Daftar sekarang</a>
+            </p>
+
+        </div>
+
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
